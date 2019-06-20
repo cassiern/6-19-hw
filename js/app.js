@@ -1,5 +1,5 @@
 // EASY GOING:
-/* for (let i = 1; i <= 20; i++){
+ for (let i = 1; i <= 20; i++){
 	console.log(i);
 }
 
@@ -32,12 +32,12 @@ for (let i = 0; i <= 20; i++) {
 	if(i % 2 === 0) {
 	let sayings = kittenArray[Math.floor(Math.random() * 4)];
 	console.log(sayings);
-} else {
+} 	else {
 	console.log("Love me, pet me! HSSSS!")
 }
 }
-*/
-/*
+
+
 for (let i = 1; i <= 100; i++) {
 	if (i % 3 && i % 5 === 0) {
 		console.log("FizzBuzz");
@@ -53,7 +53,7 @@ for (let i = 1; i <= 100; i++) {
 
 
 
-GETTING TO KNOW YOU:
+//GETTING TO KNOW YOU:
 const kenny = ["Kenny", 1000, "Austin"];
 
 const jimHaff = ["Jim H", 16, "All cities"];
@@ -85,12 +85,12 @@ console.log(jimHaff);
 
 
 //YELL AT NINJA TURTLES
-/*
+
 const ninja = ["donatello", "leonardo", "raphael", "michaelangelo"]; 
 for (let i = 0; i < ninja.length; i++) {
 		console.log(ninja[i].toUpperCase());
 }
-*/
+
 //RETURN OF THE CLOSETS
 
 const kristynsCloset = [
@@ -124,15 +124,15 @@ const thomsCloset = [
   ]
 ];
 
-kristynsCloset.shift();
-console.log(kristynsCloset);
+ kristynsCloset.shift();
+ console.log(kristynsCloset);
 
-const kristynsShoe = "left shoe";
-console.log(kristynsShoe);
+ const kristynsShoe = "left shoe";
+ console.log(kristynsShoe);
 
-//console.log(thomsCloset);
-thomsCloset[2].push(kristynsShoe);  
-console.log(thomsCloset[2]);
+ console.log(thomsCloset);
+ thomsCloset[2].push(kristynsShoe);  
+ console.log(thomsCloset[2]);
 
 for (let i = 0; i < 3; i++) {
 	
@@ -144,6 +144,32 @@ for ( i = 0; i < 3; i++) {
 	console.log(`Today Thom picked out these/this ${outfits1[i]}`);
 }
 
+for (i = 0; i < kristynsCloset.length; i++) {
+ 	console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+ }
+
+ for (i = 0; i < 3; i++){
+ 		console.log(thomsCloset);
+ }
+
+//MULTIPLES OF 3 AND 5
+
+ for (let i = 0; i < 1000; i++) {
+ 	if (i % 3 && i % 5 === 0) {
+ 		console.log(i);
+ 	}
+ 	let sum = i;
+ }
+
+// SUM OF 3 AND 5
+sum = 0;
+for (let i = 0; i <= 1000; i++) {
+	if (i % 3 === 0 || i % 5 === 0) {
+		sum += i;
+		}
+};
+
+console.log(sum);
 
 
 
