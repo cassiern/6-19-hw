@@ -50,7 +50,9 @@ for (let i = 1; i <= 100; i++) {
 	}
 }
 */
+/*
 
+GETTING TO KNOW YOU:
 const kenny = ["Kenny", 1000, "Austin"];
 
 const jimHaff = ["Jim H", 16, "All cities"];
@@ -79,6 +81,15 @@ jimHaff.pop();
 console.log(jimHaff);
 jimHaff.splice(3, 2, "Redding", "Arvada", "Goshen");
 console.log(jimHaff);
+*/
+
+//YELL AT NINJA TURTLES
+
+const ninja = ["donatello", "leonardo", "raphael", "michaelangelo"]; 
+for (let i = 0; i < ninja.length; i++) {
+		console.log(ninja[i].toUpperCase());
+}
+
 
 
 
